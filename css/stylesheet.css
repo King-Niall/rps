@@ -1,0 +1,55 @@
+body{
+    color: rgb(194, 194, 194);
+    margin: auto;
+    font-size: 1.2rem;
+    display: flex;
+}
+
+
+
+.container {
+    gap: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 2rem;
+    flex: 1;
+}
+
+.container h2 {
+    text-align: center;
+    flex: 1;
+}
+
+.log-container p{
+    text-align: center;
+    flex:1;
+    font-size: 1.8rem;
+}
+
+.log-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.container div {
+    gap: 10px;
+    align-content: center;
+    background-color: rgb(80, 80, 80);
+    display: flex;
+    height: 5rem;
+    width: 25rem;
+}
+
+.container .choices button {
+    background-color: white;
+    font-size: 1.5rem;
+    border-radius: 10%;
+    flex: 1;
+}
+
+.container .choices {
+    background-color: rgb(29, 29, 29);
+}
